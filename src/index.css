@@ -38,10 +38,32 @@ body {
 
 /* Global Language Styles */
 [lang="ar"],
-.font-ar {
-  font-family: 'Cairo', "Cairo", sans-serif !important;
+.font-ar,
+.font-ar * {
+  font-family: 'Cairo', 'Reem Kufi', sans-serif !important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
   direction: rtl;
-  line-height: 1.6;
+}
+
+[lang="ar"] p,
+[lang="ar"] span,
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] h3,
+[lang="ar"] h4,
+[lang="ar"] h5,
+[lang="ar"] h6,
+.font-ar p,
+.font-ar span,
+.font-ar h1,
+.font-ar h2,
+.font-ar h3,
+.font-ar h4,
+.font-ar h5,
+.font-ar h6 {
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
 }
 
 [lang="en"],
