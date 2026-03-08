@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #e4c581;
+  --color-gold-light: #f1d9a7;
+  --color-gold-dark: #bca061;
+  --color-rich-black: #050A15;
+  --color-charcoal: #0B1221;
+  --color-off-white: #FAFAFA;
+  --color-white: #FAFAFA;
+
+  --font-en: "Outfit", sans-serif;
+  --font-ar: "Cairo", sans-serif;
+
+  /* Typography Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  @apply bg-rich-black text-off-white antialiased overflow-x-hidden;
+}
+
+/* Global Language Styles */
+[lang="ar"],
+.font-ar {
+  font-family: 'Cairo', 'Reem Kufi', sans-serif;
+  letter-spacing: 0 !important;
+  direction: rtl;
+  line-height: 1.6;
+}
+
+[lang="en"],
+.font-en {
+  font-family: 'Outfit', "Outfit", sans-serif !important;
+  direction: ltr;
+  line-height: 1.6;
+}
+
+/* Fix for browser translation tools - focusing ONLY on direction */
+html[lang="ar"] p:not(.brand-exclusive),
+html[lang="ar"] h1:not(.brand-exclusive),
+html[lang="ar"] h2:not(.brand-exclusive),
+html[lang="ar"] h3:not(.brand-exclusive),
+html[lang="ar"] h4:not(.brand-exclusive) {
+  direction: rtl !important;
+}
+
+/* Alignment Fixes for RTL */
+[lang="ar"] .text-left,
+[lang="ar"] .text-start {
+  text-align: right !important;
+}
+
+[lang="ar"] .text-right,
+[lang="ar"] .text-end {
+  text-align: left !important;
+}
+
+[lang="ar"] .text-center {
+  text-align: center !important;
+}
+
+.brand-exclusive {
+  direction: ltr !important;
+  unicode-bidi: bidi-override !important;
+  text-align: left !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+/* Typography Consistency */
+h1 {
+  @apply text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.9] text-white transition-all duration-700;
+}
+
+h2 {
+  @apply text-3xl md:text-5xl font-bold uppercase tracking-tight text-white transition-all duration-500;
+}
+
+h3 {
+  @apply text-xl md:text-2xl font-bold uppercase tracking-wide text-white;
+}
+
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] h3,
+[lang="ar"] h4 {
+  @apply tracking-normal leading-tight;
+}
+
+p {
+  @apply leading-[1.8] font-light text-gray-400;
+}
+
+/* Unified Spacing System */
+.section-padding {
+  @apply py-20 md:py-32;
+}
+
+.container-custom {
+  @apply container mx-auto px-6 max-w-7xl;
+}
+
+/* Luxury UI Utilities */
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.gold-text {
+  @apply text-gold;
+}
+
+.gold-border {
+  @apply border-gold/20;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-rich-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gold/20 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gold/40;
+}
+
+/* Animations */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}
+
+.hover-lift {
+  @apply transition-transform duration-500 hover:-translate-y-2;
+}
