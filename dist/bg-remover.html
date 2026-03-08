@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Background Remover</title>
+    <!-- Load imgly image background removal -->
+    <script src="https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.4.3/dist/imglyRemoval.umd.js"></script>
+</head>
+
+<body>
+    <h1>Removing Backgrounds...</h1>
+    <div id="status">Starting...</div>
+    <script>
+        const imagesToProcess = [
+            { path: '/assets/team/media__1772927271034.jpg', name: 'manager.png' }, // manager? Or maybe I should just name them based on what they are. 
+            // Wait, let's just create 4 new unique images
+            { path: '/assets/team/media__1772927270678.jpg', name: 'bashir-nobg.png' }, // Example mapping
+            { path: '/assets/team/media__1772927270725.jpg', name: 'mohammed-nobg.png' },
+            { path: '/assets/team/media__1772927271034.jpg', name: 'dr-omer-nobg.png' },
+            { path: '/assets/team/media__1772927271285.png', name: 'miqdad-nobg.png' }
+        ];
+
+        async function blobToBase64(blob) {
+            return new Promise((resolve, _) => {
+                const reader = new FileReader();
+                reader.onloadend = () => resolve(reader.result);
+                reader.readAsDataURL(blob);
+            });
+        }
+
+        async function process() {
+            const statusDiv = document.getElementById('status');
+
+            for (const img of imagesToProcess) {
+                statusDiv.innerHTML += `<br/>Processing ${img.name}...`;
+                try {
+                    // Remove background
+                    const blob = await imglyRemoveBackground(img.path);
+                    const base64 = await blobToBase64(blob);
+
+                    // Post to local server
+                    await fetch('http://localhost:3001/save', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ name: img.name, base64 })
+                    });
+                    statusDiv.innerHTML += ` ✅ Saved!`;
+                } catch (e) {
+                    statusDiv.innerHTML += ` ❌ Error: ${e.message}`;
+                }
+            }
+            statusDiv.innerHTML += `<br/><strong>ALL DONE!</strong>`;
+        }
+
+        process();
+    </script>
+</body>
+
+</html>
