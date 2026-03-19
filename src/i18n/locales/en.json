@@ -1,0 +1,401 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "general_services": "General Services",
+        "imports_exports": "F.M Trade logistic",
+        "documents": "Documentation",
+        "contact": "Contact",
+        "join_us": "Join Us",
+        "global_presence": "Global Presence",
+        "facilitation_energy": "F.M facilitation renewal energy solution",
+        "digital_tech": "F.M digital Tech & AI applications",
+        "expertise": "We favour the world",
+        "hub": "Global Services Hub"
+    },
+    "imports_exports": {
+        "title": "F.M Trade logistic",
+        "tagline": "Strategic Global Trade Operations",
+        "desc": "Responsible for managing the import and export operations of chemical, industrial, and food materials while ensuring the highest standards of quality and safety, and regulatory compliance to meet both company and client needs.",
+        "form_title": "Trade & Logistics Inquiry",
+        "goods_type": "Type of Goods",
+        "origin": "Origin Country",
+        "destination": "Destination Country",
+        "success_msg": "Your logistics inquiry has been transmitted successfully.",
+        "industrial": {
+            "title": "Industrial Materials",
+            "desc": "Strategic sourcing of raw materials and heavy machinery."
+        },
+        "food": {
+            "title": "Food Products",
+            "desc": "Global food supply chain management with certified safety."
+        },
+        "chemical": {
+            "title": "Chemical Logistics",
+            "desc": "Specialized transport solutions for various chemical grades."
+        }
+    },
+    "about_page": {
+        "hero": {
+            "label": "The Legacy",
+            "title": "About Favourman",
+            "tagline": "Connecting businesses and people with reliable global services.",
+            "mission": "Our mission is to simplify logistics, transportation, and strategic operations using a cutting-edge global platform that empowers businesses to scale internationally with trust and efficiency."
+        },
+        "overview": {
+            "who_we_are": {
+                "title": "Who We Are",
+                "desc": "Favourman is a premier global platform designed to seamlessly connect businesses and individuals with top-tier logistics, transportation, and professional services worldwide."
+            },
+            "what_we_do": {
+                "title": "What We Do",
+                "desc": "We simplify the complex web of global service connections. From logistics coordination to business operations, our platform ensures seamless, reliable, and secure execution for every client."
+            }
+        },
+        "process": {
+            "title": "Our Methodology",
+            "subtitle": "How We Achieve Excellence",
+            "steps": [
+                {
+                    "title": "Consultation",
+                    "desc": "We collaborate with our clients to deeply understand their needs and strategic objectives."
+                },
+                {
+                    "title": "Planning",
+                    "desc": "We develop a comprehensive action plan based on precise analysis to ensure optimal results."
+                },
+                {
+                    "title": "Execution",
+                    "desc": "We work on implementing the plan with high professionalism, adhering to the highest global quality standards."
+                },
+                {
+                    "title": "Follow-up",
+                    "desc": "We monitor results and provide continuous recommendations to ensure sustainable success."
+                }
+            ]
+        },
+        "team": {
+            "title": "Our Elite Team",
+            "members": {
+                "chairman": {
+                    "name": "El-migdad Elfadil",
+                    "role": "Chairman",
+                    "bio": "Leads the company's strategic direction and oversees key decisions to ensure growth, sustainability, and the achievement of long-term goals."
+                },
+                "ceo": {
+                    "name": "Basheer Alahmadi",
+                    "role": "CEO",
+                    "bio": "Responsible for managing the company's daily operations, developing business strategies, and building partnerships to ensure the company's success and expansion."
+                },
+                "omer": {
+                    "name": "Dr. Omer Elfadil",
+                    "role": "International Relationship",
+                    "bio": "Manages relations and cooperation with international partners and clients, working to expand the company's global network."
+                },
+                "manager": {
+                    "name": "Mohammed Albijawy",
+                    "role": "Digital Operations Manager",
+                    "bio": "Oversees all the company's digital systems, including the website, design, and technical systems, to ensure the efficiency of digital operations."
+                }
+            }
+        },
+        "partners": {
+            "title": "Trusted By"
+        }
+    },
+    "hero": {
+        "welcome_label": "Trusted Leadership",
+        "title1": "International Business",
+        "title2": "Management Platform",
+        "subtitle": "We provide integrated solutions in more than 21 activities in the fields of business and social responsibility, helping you grow and achieve your global results",
+        "cta_network": "View Network",
+        "cta_capabilities": "Sectors",
+        "initiate_protocol": "Discover Excellence"
+    },
+    "common": {
+        "submit": "Submit Secure Inquiry",
+        "explore": "Explore Capability",
+        "learn_more": "Learn More",
+        "view_network": "Global Network",
+        "request_service": "Request This Service",
+        "become_partner": "Become a Provider/Partner",
+        "stats": {
+            "sectors": "Core Sectors",
+            "regions": "Countries",
+            "experience": "Years of Precision",
+            "standard": "Service Standard"
+        },
+        "legal": "Legal Brief",
+        "privacy": "Privacy Standards",
+        "copyright": "© {{year}} Favourman International. Private & Confidential.",
+        "error_message": "An error occurred. Please try again later.",
+        "submitting": "Submitting Inquiry...",
+        "success_msg": "Message Protocol Initiated. We will contact you shortly."
+    },
+    "home": {
+        "story": {
+            "label": "The Legacy",
+            "title": "Favourman",
+            "subtitle": "International",
+            "description": "A leading global holding company founded by Engineer El-migdad Elfadil, providing specialized commercial and service activities across more than 21 sectors. We are committed to delivering excellence through a world-class network of trusted partners, empowering businesses and corporations to achieve their strategic goals.",
+            "history": "The Global Platform for Trusted Trade and Business Opportunities",
+            "founder": "Founder: Dr. Omer Elfadil"
+        },
+        "sectors": {
+            "label": "The Legacy",
+            "title": "21 Specialized",
+            "subtitle": "Sectors",
+            "items": [
+                {
+                    "title": "Oil & Gas Exports",
+                    "desc": "Reliable and sustainable energy solutions for the global industry."
+                },
+                {
+                    "title": "Energy Services",
+                    "desc": "Tailor-made, top-notch services spanning the global energy industry."
+                },
+                {
+                    "title": "Travel & Tourism",
+                    "desc": "Crafting memorable experiences and supporting sustainable global tourism growth."
+                },
+                {
+                    "title": "Courier & Cargo",
+                    "desc": "Efficient and reliable logistics solutions for seamless global trade operations."
+                },
+                {
+                    "title": "Iron & Steel",
+                    "desc": "Supporting global infrastructure through high-quality production and distribution."
+                },
+                {
+                    "title": "Private Marine Services",
+                    "desc": "High-efficiency maritime operations and logistics for private and commercial clients."
+                },
+                {
+                    "title": "Gold & Minerals Mining",
+                    "desc": "Responsible and sustainable mining of precious resources to power global industries."
+                },
+                {
+                    "title": "Digital Technology & AI",
+                    "desc": "Pioneering digital advancements and AI integration to drive innovation and efficiency."
+                },
+                {
+                    "title": "Food Security & Storage",
+                    "desc": "Advanced management and distribution systems to ensure global food security."
+                },
+                {
+                    "title": "Pharmaceutical Export & Manufacturing",
+                    "desc": "Providing high-quality medical and pharmaceutical solutions to the global market."
+                },
+                {
+                    "title": "Military Equipment & Heavy Machinery",
+                    "desc": "Specialized import/export services for national defense and critical infrastructure."
+                },
+                {
+                    "title": "Recruitment Services",
+                    "desc": "Professional talent acquisition and workforce solutions across diverse sectors."
+                },
+                {
+                    "title": "Real Estate Development",
+                    "desc": "Innovative projects for sustainable and modern urban living spaces."
+                },
+                {
+                    "title": "Educational Consultancy",
+                    "desc": "Guiding the next generation through international academic excellence."
+                },
+                {
+                    "title": "International Immigration Consultancy",
+                    "desc": "Expert guidance for seamless international relocation and immigration."
+                },
+                {
+                    "title": "Transportation & Shipping Management",
+                    "desc": "Facilitating global trade through advanced logistics and maritime fleet management."
+                },
+                {
+                    "title": "Financial Investment Management",
+                    "desc": "Strategic management of financial assets to maximize returns and foster growth."
+                },
+                {
+                    "title": "Healthcare & Hospital Management",
+                    "desc": "Comprehensive medical services and healthcare facility management worldwide."
+                },
+                {
+                    "title": "Attestation Consultancy",
+                    "desc": "Expert services in document legalisation, compliance, and global authentication."
+                },
+                {
+                    "title": "General Services",
+                    "desc": "Versatile corporate divisions catering to diverse client needs with unique solutions."
+                },
+                {
+                    "title": "Gold Mining & Refinement",
+                    "desc": "Specialized extraction and purification of gold following international standards."
+                },
+                {
+                    "title": "F.M Facilitation renewal energy solution",
+                    "desc": "Experts in facilitating and renewing energy sources, providing specialized advisory and technical services to enhance energy performance and increase efficiency, reinforcing our clients' success."
+                }
+            ]
+        },
+        "global_authority": {
+            "label": "Strategic Footprint",
+            "title": "Global Presence",
+            "subtitle": "Highlighted",
+            "description": "While we operate in nearly 200 countries, we maintain specialized strategic operations and deep-seated partnerships in Egypt, India, Pakistan, and Sudan.",
+            "nations_title": "Primary Markets",
+            "nations_desc": "Egypt, India, Pakistan, Sudan",
+            "corridors_title": "Global Logistics",
+            "corridors_desc": "Connecting major trade corridors through optimized supply chain flows.",
+            "nations": "Nations",
+            "architecture": "Global Architecture"
+        }
+    },
+    "documentation": {
+        "hero": "Official Records",
+        "description": "Favourman International maintains the highest standards of transparency and compliance. Our global operations are governed by official certifications and strategic mandates.",
+        "label": "Verification Protocol",
+        "items": [
+            {
+                "title": "Company Registration",
+                "desc": "Officially Registered since Oct 23, 2018 (Registration No: 5103402)."
+            },
+            {
+                "title": "Tax Compliance (NTN)",
+                "desc": "Active legal tax status for international commercial activities (30203-9915862-3)."
+            },
+            {
+                "title": "Official Mandates",
+                "desc": "Authorized representation letters from international firms including IZON and PTrading AG."
+            },
+            {
+                "title": "Institutional Memberships",
+                "desc": "Certified membership with leading Chambers of Commerce and global trade organizations."
+            }
+        ],
+        "seal_title": "Certification Protocol",
+        "seal_desc": "Every mandate and registration is verified through sovereign and institutional channels globally.",
+        "stamp": {
+            "title": "Favourman International Services",
+            "tagline": "Unveiling a world of expertise"
+        },
+        "return_matrix": "Return to Matrix"
+    },
+    "service_detail": {
+        "form_title": "Service Engagement",
+        "request_button": "Request Service Protocol",
+        "partner_button": "Apply for Partnership",
+        "name": "Full Name",
+        "email": "Executive Email",
+        "org": "Organization",
+        "message": "Strategic Brief / Requirements",
+        "identity": "Executive Identity",
+        "secure_channel": "Secure Channel",
+        "brief": "Strategic Brief",
+        "submit_inquiry": "Submit Inquiry",
+        "inquiry_received": "Communication Protocol Initiated",
+        "processing": "Processing...",
+        "strategic_asset": "Strategic Asset",
+        "scope": "Operational Scope",
+        "scope_desc": "Integrated deployment across 200 sovereign territories with direct institutional mandates.",
+        "standard_desc": "Tier-1 service provision tailored for sovereign funds, private estates, and multinational conglomerates.",
+        "engagement": "Protocol Engagement",
+        "acquire": "Acquire Service",
+        "partner": "Strategic Partner",
+        "extended": [
+            "Specialized oil and gas export management, connecting premium energy sources with global industrial consumers through secure maritime corridors.",
+            "Precision energy consultancy and tailored technical services for the global power and energy infrastructure sectors.",
+            "Premium global travel management and sustainable tourism initiatives, fostering cultural exchange and luxury hospitality solutions.",
+            "Automated courier and heavy cargo logistics, ensuring just-in-time delivery through a secure global supply chain network.",
+            "High-grade iron and steel distribution, powering national infrastructure and industrial manufacturing across emerging markets.",
+            "Exclusive maritime fleet management and private marine tactical logistics for high-net-worth and institutional clients.",
+            "Strategic mining of minerals and precious metals, adhering to the highest environmental and ethical global standards.",
+            "Advanced digital transformation, private AI implementation, and cybersecurity protocols for corporate and sovereign entities.",
+            "Global food reserve management and secure cold-chain logistics to ensure national and regional food stability.",
+            "Pharmaceutical manufacturing oversight and international export of critical medical supplies and healthcare biotechnology.",
+            "Heavy machinery procurement and specialized equipment logistics for defense, mining, and large-scale industrial projects.",
+            "Elite talent acquisition and workforce planning for the world's most demanding industrial and commercial sectors.",
+            "Strategic urban development and sustainable real estate investment management in high-growth global corridors.",
+            "International academic consultancy, bridging students with elite global institutions and specialized professional training.",
+            "Executive immigration consultancy and sovereign residency planning through strategic global investment and legal compliance.",
+            "Integrated multi-modal transportation management and global port logistics for efficient international commodity flow.",
+            "Sovereign and institutional financial investment management, focusing on high-impact growth and capital preservation.",
+            "Advanced hospital facility management and specialized medical services integration for global healthcare providers.",
+            "Verified document legalization, diplomatic attestation, and international compliance services for corporate fast-tracking.",
+            "Versatile corporate support divisions providing adaptable, high-impact business solutions for non-standard global needs.",
+            "Industrial-scale gold extraction, purification, and international bullion trading under strict LBMA-adjacent standards."
+        ]
+    },
+    "contact_info": {
+        "email_label": "Official Inquiry",
+        "email": "info@favourman.com",
+        "phone_label": "Direct Line",
+        "phone": "+92 329 1223404",
+        "contact_person": "Dr. Omer Elfadil",
+        "contact_role": "International Relationship",
+        "inquiry_label": "Secure Channel",
+        "submit_proposal": "Submit Proposal",
+        "inquiry_protocol": "Inquiry Protocol",
+        "connect_strategically": "Connect Strategically",
+        "transmitted": "Inquiry Transmitted Successfully",
+        "engagement_protocol": {
+            "title": "Engagement Protocol",
+            "step1": {
+                "title": "Initial Inquiry",
+                "desc": "Contact us to request a service or offer a strategic business solution."
+            },
+            "step2": {
+                "title": "Strategic Alignment",
+                "desc": "Receive pricing, volume assessment, and comprehensive logistics planning."
+            },
+            "step3": {
+                "title": "Protocol Activation",
+                "desc": "Submit 50% down-payment to officially initiate operational deployment."
+            },
+            "step4": {
+                "title": "Final Achievement",
+                "desc": "Final 50% payment upon successful delivery and service completion."
+            }
+        }
+    },
+    "join_us": {
+        "label": "Global Talent",
+        "title": "Join Our",
+        "subtitle": "Global Elite",
+        "description": "Are you an expert looking to make a global impact? Favourman International is always seeking strategic minds and industry specialists to join our network.",
+        "form": {
+            "name": "Full Name",
+            "email": "Executive Email",
+            "expertise": "Expertise Area",
+            "cv": "Global CV / Portfolio Link",
+            "summary": "Executive Summary",
+            "submit": "Submit Credentials",
+            "success": "Protocol Received. Our talent department will review your credentials.",
+            "specializations": {
+                "logistics": "Global Logistics",
+                "energy": "Energy & Resources",
+                "consultancy": "Strategic Consultancy",
+                "tech": "Technology & AI",
+                "other": "Other Specialization"
+            }
+        }
+    },
+    "privacy_page": {
+        "title": "Privacy Policy",
+        "section1": {
+            "title": "1. Information Collection",
+            "desc": "Favourman International collects only the information necessary to provide our services. This includes contact details and project-related information submitted through our official forms."
+        },
+        "section2": {
+            "title": "2. Use of Information",
+            "desc": "The information collected is used solely for the purpose of communicating with our clients and partners. We do not sell or share your data with unauthorized third parties."
+        },
+        "section3": {
+            "title": "3. Data Security",
+            "desc": "We implement industry-standard security protocols to protect your sensitive data from unauthorized access, disclosure, or modification."
+        },
+        "section4": {
+            "title": "4. Contact Us",
+            "desc": "If you have any questions regarding this privacy policy, please contact us at info@favourman.com."
+        }
+    }
+}
